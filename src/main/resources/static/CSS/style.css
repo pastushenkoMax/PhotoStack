@@ -1,0 +1,177 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    color:#313131;
+}
+body{
+	background: linear-gradient(-90deg, #d5d5d5, #7a7a7a);
+	height: 100vh;
+}
+div.container{
+	height: 100vh;
+}
+.text-danger{
+	color:#c5290e;
+}
+div.mainContent{
+    height: 99vh;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+    position: relative;
+    padding: 40px;
+    
+}
+div.register{
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.to{
+	margin: 0 20px;
+}
+.ph_st{
+	margin: 0 40px;
+}
+div.left h1{
+	font-size: 4.2em;
+	
+	
+}
+div.mid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input[type=text], [type=password] {
+	font-family: 'Merriweather', serif;
+    color:#313131;
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 10px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=submit] {
+  	width: 100%;
+  	background-color: #7e7e7e;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 15px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #8c8c8c;
+}
+div.userContent{
+	background: #f0f0f0;
+	border: 1px solid white;
+	align-items: flex-start;
+	max-height: 280px;
+}
+div.postBody img{
+	width:120px;
+	border:2px solid black;	
+	border-radius:50%;
+}
+div.addPostBtn img{
+	width: 30px;
+}
+div.postContainer{
+	background: #f0f0f0;
+	border: 1px solid white;
+	padding: 20px;
+	height: 99vh;
+}
+	
+div.postImg img{
+	width: 400px;
+	height: 400px;
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  border: 1px solid #e8e8e8;
+  
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+div.photoContent{
+	background: #f0f0f0;
+	border: 2px solid white;
+	margin: 10px 0;
+	padding: 20px;
+}
+div.photoContent img{
+	height:160px;
+}
+div.topSidePost{
+	display:flex;
+	justify-content: space-between;
+}
+div.edit img{
+	margin: 10px;
+	width:20px;
+	height: 20px;
+}
+div.addFriandBtn{
+	width: 180px;
+}
+.linkNoDecor a:link, a:visited{
+	text-decoration: none;
+	color:#313131;
+}
+div.userfriends{
+	background: #f0f0f0;
+	border: 2px solid white;
+	margin: 10px 0;
+	padding: 20px;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: start;
+}
+div.friendsCard{
+	margin: 5px 0;
+	display:flex;
+	border: 2px solid #313131;;
+	width: 100%;
+	height: 80px;
+	align-items: center;
+	border-radius:24px;
+	background: linear-gradient(-90deg, #d5d5d5, #d9d9d9);
+}
+div.friendsCard img{
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+}
+.myBtn input[type=submit] {
+  	background-color: #7e7e7e;
+  	margin:0;
+  	color: white;
+  	padding: 5px 5px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
